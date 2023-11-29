@@ -5,7 +5,7 @@ body{
 
 body *{
 	//border: solid black 2px;
-	//margin: 2px;
+	//margin: 4px;
 }
 
 #okvirni{
@@ -76,4 +76,19 @@ main{
 
 footer{
 	text-align: center;
+}
+
+.redak{
+	//display: inline;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 15px;
+
+}
+
+.redak img{
+	
+	width: 35%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
