@@ -1,0 +1,79 @@
+body{
+	background-color: red;
+	padding: 10px;
+}
+
+body *{
+	//border: solid black 2px;
+	//margin: 2px;
+}
+
+#okvirni{
+	background-color: rgba(66, 66, 66, 0.95);
+	border: solid rgba(66, 66, 66, 0.95) 2px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#inline{
+	display: inline;
+}
+
+header{
+	font-size: 50px;
+	font-family: fantasy;
+	color: whitesmoke;
+	text-shadow: -3px 3px black;
+	width: 100%;
+	text-align: center;
+}
+
+nav{
+	
+}
+
+ul{
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+}
+
+li{
+	display: inline;
+	align-items: center;
+	font-size: 30px;
+	alink: whitesmoke;
+	margin: 5px;
+}
+
+a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+a:hover{
+	text-shadow: -2px 2px black;
+}
+
+hr{
+	border: solid rgb(33, 33, 33) 2px;
+}
+
+aside{
+	float: left;
+	width: 165px;
+}
+
+#gif1{
+	filter: invert(1);
+	height: 150px;
+}
+
+main{
+	padding: 5px;
+	min-height: 165px;
+}
+
+footer{
+	text-align: center;
+}
