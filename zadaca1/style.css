@@ -28,9 +28,6 @@ header{
 	text-align: center;
 }
 
-nav{
-	
-}
 
 ul{
 	margin-left: auto;
@@ -74,8 +71,16 @@ main{
 	min-height: 165px;
 }
 
+form{
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+
 footer{
 	text-align: center;
+	background-color: rgba(33, 33, 33, 0.8);
+	border-radius: 0px 0px 5px 5px;
 }
 
 .redak{
@@ -91,4 +96,35 @@ footer{
 	width: 35%;
 	margin-left: 5%;
 	margin-right: 5%;
+}
+
+#avatar{
+	width: 100px;
+	border-radius: 50px;
+
+}
+
+table{
+	margin-right: auto;
+	margin-left: auto;
+	border-collapse: collapse;
+
+}
+
+tr{
+	border-top: 4px solid rgba(33, 33, 33, 0.8);
+	border-bottom: 4px solid rgba(33, 33, 33, 0.8);
+}
+
+td{
+	padding: 10px;
+	font-size: 25px;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.center{
+	margin-right: auto;
+	margin-left: auto;
+	width: 200px;
 }
